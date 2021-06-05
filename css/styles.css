@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  /* primary colors */
+  --DarkViolet: hsl(256, 26%, 20%);
+  --GrayishBlue: hsl(216, 30%, 68%);
+  /* ---------------*/
+
+  /* Neutral */
+  --VeryDarkViolet: hsl(270, 9%, 17%);
+  --DarkGrayishViolet: hsl(273, 4%, 51%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  color: var(--DarkViolet);
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+}
+.flex > div {
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* =======================nav section=================== */
+nav {
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav li a {
+  text-transform: uppercase;
+  color: var(--DarkGrayishViolet);
+  font-weight: 600;
+}
+
+/* =======================header section=================== */
+header {
+  /* background-color: var(--DarkViolet); */
+}
+
+/* =======================main section=================== */
+section {
+}
+
+/* =======================footer section=================== */
+footer {
+}
